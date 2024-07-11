@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --red: #fe0400;
+    --primary: #7a000c !important;
+    --transition: 0.3s all;
+    --base_color: #747474;
+    --header_height: 80px;
+    --light: #f6f6f6;
+    --black: #282828;
+    --yellow: #e4a72b;
+    --muted: #888888;
+    --dark: #393939;
+    --dark_blue: #01356a;
+    --header_color: #1D1624
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+    @layer components {
+         /* layout */
+    .row {
+       @apply flex w-full flex-wrap;
+    }
+
+    .col_1 {
+        @apply w-1/12;
+    }
+
+    .col_2 {
+        @apply w-2/12;
+    }
+
+    .col_3 {
+        @apply w-3/12;
+    }
+
+    .col_4 {
+        @apply w-4/12;
+    }
+
+    .col_5 {
+        @apply w-5/12;
+    }
+
+    .col_6 {
+        @apply w-6/12;
+    }
+
+    .col_7 {
+        @apply w-7/12;
+    }
+
+    .col_8 {
+        @apply w-8/12;
+    }
+
+    .col_9 {
+        @apply w-9/12;
+    }
+
+    .col_10 {
+        @apply w-10/12;
+    }
+
+    .col_11 {
+        @apply w-11/12;
+    }
+
+    .col_12 {
+        @apply w-full;
+    }
+    }
